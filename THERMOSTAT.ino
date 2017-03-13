@@ -92,11 +92,7 @@ int tlacitko;
   lcd.setCursor(0, 3);
   lcd.print("topeni:");
  
-  lcd.setCursor(0, 2);
-  lcd.print(EEPROM.read(0));
-  
-  
-  
+    
   int stisk = 0;
   tlacitko=digitalRead(tlacD); 
   if(tlacitko==0) {       
